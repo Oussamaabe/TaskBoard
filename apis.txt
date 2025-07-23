@@ -1,0 +1,29 @@
+APIs URLS : 
+  - Tasks :
+    -- All Tasks : get("/api/tasks")
+    -- One Task : get("/api/tasks/:taskId")
+    -- Tasks in specific categ : get("/api/tasks/category/:nameCategory")
+    -- Create task : post("/api/tasks")
+    -- Update task : patch("/api/tasks/:taskId")
+    -- Delete task : delete("/api/tasks/:taskId")
+
+  - Notes :
+    -- All Notes : get("/api/notes")
+    -- One Notes : get("/api/notes/:noteId")
+    -- Create Note : post("/api/notes")
+    -- update Note : put("/api/notes/:noteId")
+    -- Delete Note : delete("/api/notes/:noteId")
+
+  - Users :
+    -- Create User : post("/api/users")
+    -- All Users : get("/api/users")
+
+  - Category :
+    -- All Categories : get("/api/categories")
+    -- Create Category : post("/api/categories")
+    -- update Category : put("/api/categories/:nameCategory/:userId")
+    -- Delete Category : delete("/api/categories/:nameCategory")
+
+  - Statisctics : {fullname, email, nbr_tasks_done, nbr_tasks}
+    -- All Users : get("/api/stats")
+    -- Specific User : get("/api/stats/:userId")
